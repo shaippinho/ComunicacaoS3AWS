@@ -34,6 +34,7 @@ namespace ConsoleEnvioArquivoS3.AWS
         public async Task ReadObjectDataAsync()
         {
             string responseBody = "";
+
             try
             {
                 GetObjectRequest request = new GetObjectRequest
